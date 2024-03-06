@@ -1,0 +1,12 @@
+{
+  "plugins": ["office-addins"],
+  "extends": ["plugin:office-addins/react"],
+  "globals": {
+    "Office": true,
+    "Word": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
